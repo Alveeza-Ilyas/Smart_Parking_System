@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking System - Parking Slots</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1><img src="parking-car.png" width="40">Smart Parking</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="parking_slots.html" class="active">Parking Slots</a></li>
+                <li><a href="booking.html">Book Slot</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="logoutBtn" class="btn-logout">Logout</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    <div class="slots-container">
+        <div class="slots-header">
+            <h1>Parking Slots Overview</h1>
+            <div class="slots-summary">
+                <div class="summary-item">
+                    <span class="dot available-dot"></span>
+                    <span>Available: <strong id="availableCount">0</strong></span>
+                </div>
+                <div class="summary-item">
+                    <span class="dot booked-dot"></span>
+                    <span>Booked: <strong id="bookedCount">0</strong></span>
+                </div>
+                <div class="summary-item">
+                    <span class="dot total-dot"></span>
+                    <span>Total: <strong id="totalCount">0</strong></span>
+                </div>
+            </div>
+            <button class="btn-refresh" onclick="loadSlots()">Refresh</button>
+        </div>
+        
+        <div class="parking-lot">
+            <div class="floor-section">
+                <h2>Ground Floor (A)</h2>
+                <div class="slots-grid" id="floorA"></div>
+            </div>
+            
+            <div class="floor-section">
+                <h2>First Floor (B)</h2>
+                <div class="slots-grid" id="floorB"></div>
+            </div>
+            
+            <div class="floor-section">
+                <h2>Second Floor (C)</h2>
+                <div class="slots-grid" id="floorC"></div>
+            </div>
+            
+            <div class="floor-section">
+                <h2>Third Floor (D)</h2>
+                <div class="slots-grid" id="floorD"></div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <h3>Legend:</h3>
+            <div class="legend-items">
+                <div class="legend-item">
+                    <div class="slot-demo available">A1</div>
+                    <span>Available Slot</span>
+                </div>
+                <div class="legend-item">
+                    <div class="slot-demo booked">A1</div>
+                    <span>Booked Slot</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Smart Parking System. All rights reserved.</p>
+    </footer>
+    
+    <script src="common.js"></script>
+    <script src="parking_slots.js"></script>
+
+</body>
+</html>

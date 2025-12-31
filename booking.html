@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking System - Book Slot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1><img src="parking-car.png" width="40">Smart Parking</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="parking_slots.html">Parking Slots</a></li>
+                <li><a href="booking.html" class="active">Book Slot</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="logoutBtn" class="btn-logout">Logout</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    <div class="booking-container">
+        <div class="booking-wrapper">
+            <div class="booking-form-section">
+                <h1>Book Your Parking Slot</h1>
+                <p class="subtitle">Select an available slot and book instantly</p>
+                
+                <form id="bookingForm">
+                    <div class="input-group">
+                        <label for="floor">Select Floor</label>
+                        <select id="floor" name="floor" required>
+                            <option value="">Choose a floor</option>
+                            <option value="A">Ground Floor (A)</option>
+                            <option value="B">First Floor (B)</option>
+                            <option value="C">Second Floor (C)</option>
+                            <option value="D">Third Floor (D)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="slot">Select Slot</label>
+                        <select id="slot" name="slot" required disabled>
+                            <option value="">First select a floor</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="vehicle_number">Vehicle Number</label>
+                        <input type="text" id="vehicle_number" name="vehicle_number" required placeholder="Enter vehicle number">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="duration">Duration (hours)</label>
+                        <input type="number" id="duration" name="duration" min="1" max="24" value="1" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="phone">Contact Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Enter contact number">
+                    </div>
+                    
+                    <div class="price-display">
+                        <span>Total Price:</span>
+                        <span class="price" id="totalPrice">$5.00</span>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Book Now</button>
+                </form>
+            </div>
+            
+            <div class="booking-info-section">
+                <h2>Available Slots</h2>
+                <div class="available-slots-display" id="availableSlotsDisplay">
+                    <p class="info-text">Select a floor to see available slots</p>
+                </div>
+                
+                <div class="pricing-info">
+                    <h3>Pricing Information</h3>
+                    <ul>
+                        <li>First hour: <strong>$5.00</strong></li>
+                        <li>Additional hours: <strong>$3.00/hr</strong></li>
+                        <li>Daily max: <strong>$50.00</strong></li>
+                    </ul>
+                </div>
+                
+                <div class="booking-rules">
+                    <h3>Booking Rules</h3>
+                    <ul>
+                        <li>✓ Maximum booking: 24 hours</li>
+                        <li>✓ Free cancellation within 1 hour</li>
+                        <li>✓ Late arrival grace period: 30 min</li>
+                        <li>✓ Valid vehicle documents required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Smart Parking System. All rights reserved.</p>
+    </footer>
+    
+    <script src="common.js"></script>
+    <script src="booking.js"></script>
+
+</body>
+</html>
