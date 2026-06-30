@@ -1,5 +1,5 @@
 
-#  Smart Parking System
+# 🚗 Smart Parking System
 
 Smart Parking System is a comprehensive web-based application designed to help users view real-time parking slot availability and book spots instantly. The project features two parallel architectures: a **Pure Frontend (Local Storage-based)** version for quick simulation and a **Full-Stack (PHP + MySQL-backend)** version for production-ready database management.
 
