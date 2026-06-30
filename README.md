@@ -16,7 +16,7 @@ Smart Parking System is a comprehensive web-based application designed to help u
 
 ---
 
-## 🛠️ Tech Stack Used
+## Tech Stack Used
 
 - **Frontend:** HTML5, CSS3 (Custom responsive layouts & animations), JavaScript (ES6+ DOM manipulation and structured state object handling)[cite: 1, 2, 15, 18].
 - **Backend:** PHP (Object-Oriented PDO database layer for secure parameter binding)[cite: 3, 5, 12].
@@ -104,6 +104,3 @@ http://localhost/smart-parking-system/index.php
 
 This platform is developed strictly for educational applications. Feel free to fork this repository, submit issues, or open pull requests to scale the feature set (e.g., adding automated payment processing APIs, QR code scanners, or administrative moderation metrics).
 
-```
-
-```
