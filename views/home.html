@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking System - Home</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1><img src="../assets/img/parking-car.svg" width="40" alt="">Smart Parking</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="parking_slots.html">Parking Slots</a></li>
+                <li><a href="booking.html">Book Slot</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><span class="user-info" id="userName">Guest</span></li>
+                <li><a href="#" id="logoutBtn" class="btn-logout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="home-container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Smart Parking System</h1>
+                <p>Find and book your parking spot in seconds</p>
+                <a href="booking.html" class="btn-primary">Book Now</a>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card total">
+                <h3 id="totalSlots">100</h3>
+                <p>Total Slots</p>
+            </div>
+
+            <div class="stat-card available">
+                <h3 id="availableSlots">100</h3>
+                <p>Available Slots</p>
+            </div>
+
+            <div class="stat-card booked">
+                <h3 id="bookedSlots">0</h3>
+                <p>Booked Slots</p>
+            </div>
+
+            <div class="stat-card price">
+                <h3>$5.00/hr</h3>
+                <p id="occupancy">0% occupied</p>
+            </div>
+        </section>
+
+        <section class="my-bookings-section">
+            <h2>My Recent Bookings</h2>
+            <ul class="my-bookings" id="myBookings"></ul>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Us?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../assets/img/booking.svg" width="60" alt=""></div>
+                    <h3>Quick Booking</h3>
+                    <p>Book your parking slot in just a few clicks</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../assets/img/secure-parking.svg" width="60" alt=""></div>
+                    <h3>Secure Parking</h3>
+                    <p>24/7 CCTV surveillance and security</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../assets/img/realtime.svg" width="60" alt=""></div>
+                    <h3>Real-time Updates</h3>
+                    <p>Get instant updates on slot availability</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../assets/img/payment.svg" width="60" alt=""></div>
+                    <h3>Easy Payment</h3>
+                    <p>Multiple payment options available</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Smart Parking System. All rights reserved.</p>
+    </footer>
+
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/price-calc.js"></script>
+    <script src="../assets/js/home.js"></script>
+</body>
+</html>

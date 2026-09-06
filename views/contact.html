@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking System - Contact</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1><img src="../assets/img/parking-car.svg" width="40" alt="">Smart Parking</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="parking_slots.html">Parking Slots</a></li>
+                <li><a href="booking.html">Book Slot</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><span class="user-info" id="userName">Guest</span></li>
+                <li><a href="#" id="logoutBtn" class="btn-logout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <div class="contact-wrapper">
+            <div class="contact-form-section">
+                <h1>Get In Touch</h1>
+                <p class="subtitle">We'd love to hear from you</p>
+
+                <form id="contactForm">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="booking">Booking Issue</option>
+                            <option value="payment">Payment Problem</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required maxlength="2000" placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info-section">
+                <h2>Contact Information</h2>
+
+                <div class="info-card">
+                    <div class="info-icon"><img src="../assets/img/location-pin.svg" width="50" alt=""></div>
+                    <h3>Address</h3>
+                    <p>123 Parking Street<br>Downtown City, ST 12345</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><img src="../assets/img/telephone.svg" width="50" alt=""></div>
+                    <h3>Phone</h3>
+                    <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><img src="../assets/img/email.svg" width="50" alt=""></div>
+                    <h3>Email</h3>
+                    <p>info@smartparking.com<br>support@smartparking.com</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><img src="../assets/img/timetable.svg" width="50" alt=""></div>
+                    <h3>Business Hours</h3>
+                    <p>Monday - Friday: 8AM - 8PM<br>Saturday - Sunday: 9AM - 6PM</p>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><img src="../assets/img/facebook.svg" width="40" alt="Facebook"></a>
+                        <a href="#" class="social-icon"><img src="../assets/img/twitter.svg" width="40" alt="Twitter"></a>
+                        <a href="#" class="social-icon"><img src="../assets/img/instagram.svg" width="40" alt="Instagram"></a>
+                        <a href="#" class="social-icon"><img src="../assets/img/linkedin.svg" width="40" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Smart Parking System. All rights reserved.</p>
+    </footer>
+
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/contact.js"></script>
+</body>
+</html>
