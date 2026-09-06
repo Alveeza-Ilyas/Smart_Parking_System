@@ -9,6 +9,7 @@ A web app for checking live parking availability and booking a bay in seconds. T
 | Full stack | PHP 8 (PDO) + MySQL/MariaDB | real accounts, persistent bookings |
 
 <img width="1882" height="797" alt="image" src="https://github.com/user-attachments/assets/b99cc3de-0ffa-42b3-a4ac-887cb2d7b23e" />
+
 <img width="1867" height="720" alt="image" src="https://github.com/user-attachments/assets/4a2bf1b2-2c7e-4943-84c8-a877b9f99811" />
 
 <img width="1867" height="902" alt="image" src="https://github.com/user-attachments/assets/9143fc0f-8fa9-4124-871b-bccfffe4eb1c" />
