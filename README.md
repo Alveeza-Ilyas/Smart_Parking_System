@@ -8,15 +8,14 @@ A web app for checking live parking availability and booking a bay in seconds. T
 | Static demo | HTML + CSS + JavaScript (LocalStorage) | quick demo, no server needed |
 | Full stack | PHP 8 (PDO) + MySQL/MariaDB | real accounts, persistent bookings |
 
-<img width="1882" height="797" alt="image" src="https://github.com/user-attachments/assets/b99cc3de-0ffa-42b3-a4ac-887cb2d7b23e" />
+<img width="1867" height="793" alt="image" src="https://github.com/user-attachments/assets/ebe4c559-906d-43ff-98d0-ae861f196eaf" />
+<img width="1875" height="742" alt="image" src="https://github.com/user-attachments/assets/e205913e-79e0-4b06-a816-1bc412a735f4" />
 
-<img width="1867" height="720" alt="image" src="https://github.com/user-attachments/assets/4a2bf1b2-2c7e-4943-84c8-a877b9f99811" />
+<img width="1881" height="892" alt="image" src="https://github.com/user-attachments/assets/b240356c-e7c2-4c7b-b944-14f59d9c2428" />
 
-<img width="1867" height="902" alt="image" src="https://github.com/user-attachments/assets/9143fc0f-8fa9-4124-871b-bccfffe4eb1c" />
+<img width="1890" height="822" alt="image" src="https://github.com/user-attachments/assets/c94c5862-bbc4-4f21-b4ee-af16b5b10bca" />
 
-<img width="1877" height="863" alt="image" src="https://github.com/user-attachments/assets/e4c332af-e2fe-4bed-8641-fd797e2d9e5c" />
-
-<img width="1866" height="887" alt="image" src="https://github.com/user-attachments/assets/182a3ee3-e366-4da9-9059-4ba2b4f8ae4f" />
+<img width="1877" height="898" alt="image" src="https://github.com/user-attachments/assets/b2034026-e85d-4655-9172-d01e47c77bfe" />
 
 ---
 
